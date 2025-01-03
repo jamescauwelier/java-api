@@ -1,13 +1,13 @@
-package dev.accelerated.javaapi;
+package dev.accelerated.example.api.http.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JavaApiApplication {
+public class HttpApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JavaApiApplication.class, args);
+        SpringApplication.run(HttpApiApplication.class, args);
     }
 
 }
