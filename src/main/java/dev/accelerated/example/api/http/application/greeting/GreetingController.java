@@ -1,6 +1,6 @@
-package dev.accelerated.example.api.http.application.controller;
+package dev.accelerated.example.api.http.application.greeting;
 
-import dev.accelerated.example.api.http.application.controller.greeting.resource.GreetingResource;
+import dev.accelerated.example.api.http.application.greeting.resource.GreetingResource;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
